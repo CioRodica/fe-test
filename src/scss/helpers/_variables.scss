@@ -1,0 +1,13 @@
+$breakpoints: (
+  'small': 480px,
+  'medium': 768px,
+  'large': 992px,
+  'xlarge': 1200px
+);
+
+$base-font-size: 1.6rem !default;
+$base-font-color: $dark-gray !default;
+$base-line-height: 1.4 !default;
+$base-font-family: "Montserrat", sans-serif !default;
+
+$gutter: 1.5rem;

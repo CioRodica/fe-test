@@ -1,0 +1,28 @@
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+
+  & ~ label {
+    cursor: pointer;
+    padding-left: 3.2rem;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: .5rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 100%;
+      background-color: $gray;
+    }
+  }
+
+  &:checked ~ label,
+  &:checked ~ div {
+    opacity: .5;
+  }
+}

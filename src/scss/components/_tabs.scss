@@ -1,0 +1,56 @@
+
+.tabs__header {
+  padding: 0 1rem 2rem;
+
+  @include mappy-bp(small) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  @include mappy-bp(large) {
+    padding: 0 3rem 3rem;
+  }
+}
+
+.tabs__title {
+  font-size: 2rem;
+
+  @include mappy-bp(large) {
+    font-size: 4rem;
+  }
+}
+
+.tabs__nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    cursor: pointer;
+    display: inline-block;
+    color: $red;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1rem;
+
+    &.is-active {
+      color: $gray;
+    }
+
+    @include mappy-bp(large) {
+      margin-left: 3rem;
+    }
+  }
+}
+
+.tabs__content {
+  padding: 3rem;
+  border-radius: 2rem;
+  border: .4rem solid $gray;
+
+  @include mappy-bp(large) {
+    padding: 8rem;
+  }
+}
