@@ -1,0 +1,32 @@
+{
+  "name": "fe-test",
+  "version": "1.0.0",
+  "description": "FE Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CioRodica/fe-test.git"
+  },
+  "author": "Rodica Ciorba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CioRodica/fe-test/issues"
+  },
+  "homepage": "https://github.com/CioRodica/fe-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "jshint": "^2.9.5",
+    "sass-module-importer": "^1.4.0"
+  },
+  "dependencies": {
+    "gulp-twig": "^1.2.0",
+    "mappy-breakpoints": "^0.2.3"
+  }
+}

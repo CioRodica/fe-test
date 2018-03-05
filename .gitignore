@@ -1,0 +1,7 @@
+
+# Ignore sass cache
+.sass-cache/
+node_modules
+
+# Ignore SASS source maps
+*.css.map
